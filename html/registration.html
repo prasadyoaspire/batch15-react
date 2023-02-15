@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+</head>
+
+<body>
+    <h2>RegistrationForm</h2>
+    <form>
+        <div>
+            <label>FirstName</label>
+            <input type="text" name="fname" id="fname" placeholder="Enter FirstName" />
+        </div>
+        <div>
+            <label>LastName</label>
+            <input type="text" name="lname" id="lname" placeholder="Enter LastName" />
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email" />
+        </div>
+        <div>
+            <label>Gender</label>
+            <input type="radio" name="gender" id="gender" value="male" /> Male
+            <input type="radio" name="gender" id="gender" value="female" /> Female
+        </div>
+        <div>
+            <label>DOB</label>
+            <input type="date" name="dob" id="dob" />
+        </div>
+        <div>
+            <label>Contry</label>
+            <select name="country" id="country">
+                <option value="">--select--</option>
+                <option value="india">India</option>
+                <option value="russia">Russia</option>
+                <option value="us">US</option>
+                <option value="uk">UK</option>
+            </select>
+        </div>
+        <div>
+            <label>Skills</label>
+            <input type="checkbox" name="skills" value="sql">Sql
+            <input type="checkbox" name="skills" value="java">Java
+            <input type="checkbox" name="skills" value="html">Html
+            <input type="checkbox" name="skills" value="css">Css
+            <input type="checkbox" name="skills" value="javaScript">JavaScript
+            <input type="checkbox" name="skills" value="angular">Angular
+
+        </div>
+        <input type="submit" value="register" />
+    </form>
+</body>
+
+</html>
